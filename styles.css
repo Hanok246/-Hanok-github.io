@@ -1,0 +1,92 @@
+*{
+  box-sizing: border-box;
+  white-space: nowrap;
+  margin:0;
+  Padding:0;
+
+}
+
+nav{
+    background-color:rgb(209, 181, 181);
+    height: 80px;
+    text-align:justify;
+
+}
+
+ul{
+    padding-top: 20px;
+    position: absolute; 
+}
+
+ul li{
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(9, 9, 76);
+    transition: 0.35s;
+
+}
+
+ul li a:hover{
+    color: red;
+}
+
+ul li a:active{
+    color: rgb(242, 122, 122);
+}
+
+
+/* Index Section */
+
+.ind{
+    color:rgb(6, 88, 9);
+}
+
+.intro_text{
+    color:rgb(3, 3, 75);
+    line-height: 10px;
+    font: normal;
+}
+.short_brief{
+    font-size: 20px;
+    text-align: justify;
+}
+
+/* About Section  */
+
+.abo{
+    color:rgb(6, 88, 9);
+}
+
+/* Portfolio Section  */
+
+.port{
+    color:rgb(6, 88, 9);
+}
+
+section{
+    font-size:20px;
+}
+
+
+/* Contact Section  */
+
+.contact_nav{
+    color:rgb(6, 88, 9);
+}
+
+.contact_nav:hover{
+    color: red;
+    
+}
+
+.contact_nav:active{
+
+}
+
+
